@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#create-post {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#create-post input,
+#create-post textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#create-post button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#blog-list .post {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #aaa;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+}
